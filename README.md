@@ -1,9 +1,10 @@
 three js portfolio website
 
 todo:
- - change all names to surya
+ - add resume to navbar
  - update experiences
- - updated skills
+ - update projects 
+ - update skills
  - update contact .env files
  - check all functionality
  - update webmaster to point to this repo 
