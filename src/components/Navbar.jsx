@@ -1,6 +1,13 @@
 import { NavLink } from "react-router-dom";
+import resume from '/resume.pdf';
 
 const Navbar = () => {
+
+  const openResume = () => {
+    // Replace 'your-resume-url.pdf' with the actual URL or file path of your resume
+    window.open(resume, '_blank');
+};
+
   return (
     <header className='header'>
       <NavLink to='/'>
@@ -12,9 +19,12 @@ const Navbar = () => {
         <NavLink to='/about' className={(({ isActive }) => isActive ? "text-blue-600" : "text-slate-800") + " hover:scale-105 hover:text-black transition" }>
           About
         </NavLink>
+
         <NavLink to='/projects' className={(({ isActive }) => isActive ? "text-blue-600" : "text-slate-800") + " hover:scale-105 hover:text-black transition"}>
           Projects
         </NavLink>
+
+        <button className="text-slate-800 hover:scale-105 hover:text-black transition" onClick={openResume}>Resume</button>
       </nav>
     </header>
   );

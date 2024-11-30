@@ -1,7 +1,6 @@
 three js portfolio website
 
 todo:
- - add resume to navbar
  - add company logos to experiences
  - update projects
  - update skills
