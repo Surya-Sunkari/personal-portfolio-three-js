@@ -10,7 +10,7 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Surya</span>
         👋
         <br />
-        A student studying <span className='font-semibold text-white'>Computer Science</span> and <span className='font-semibold text-white'>Mathematics</span> at <span className='font-semibold text-white'>The University of Texas at Austin</span>
+        Drag <span className='font-semibold text-white'>left</span> or <span className='font-semibold text-white'>right</span> to learn more!
       </h1>
     );
 
@@ -18,11 +18,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+          I've worked with many companies <br /> and picked up some diverse skills along the way
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
-          Learn more
+          Learn more about me
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
