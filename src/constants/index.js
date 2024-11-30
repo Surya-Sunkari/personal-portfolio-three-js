@@ -17,8 +17,6 @@ import {
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
@@ -30,84 +28,145 @@ export const skills = [
     {
         imageUrl: css,
         name: "CSS",
-        type: "Frontend",
+        type: "Frontend"
     },
     {
         imageUrl: express,
         name: "Express",
-        type: "Backend",
+        type: "Backend"
     },
     {
         imageUrl: git,
         name: "Git",
-        type: "Version Control",
+        type: "Version Control"
     },
     {
         imageUrl: github,
         name: "GitHub",
-        type: "Version Control",
+        type: "Version Control"
     },
     {
         imageUrl: html,
         name: "HTML",
-        type: "Frontend",
+        type: "Frontend"
     },
     {
         imageUrl: javascript,
         name: "JavaScript",
-        type: "Frontend",
+        type: "Frontend"
     },
     {
         imageUrl: mongodb,
         name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
+        type: "Database"
     },
     {
         imageUrl: nextjs,
         name: "Next.js",
-        type: "Frontend",
+        type: "Frontend"
     },
     {
         imageUrl: nodejs,
         name: "Node.js",
-        type: "Backend",
+        type: "Backend"
     },
     {
         imageUrl: react,
         name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        type: "Frontend"
     },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
-        type: "Frontend",
+        type: "Frontend"
     },
     {
         imageUrl: typescript,
         name: "TypeScript",
-        type: "Frontend",
+        type: "Frontend"
+    },
+    {
+        imageUrl: typescript,
+        name: "Python",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "Java",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "PHP",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "C",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "C++",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "Kotlin",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "Clojure",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "Flask",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "Django",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "Java Spring",
+        type: "Backend"
+    },
+    {
+        imageUrl: typescript,
+        name: "AWS",
+        type: "DevOps/Cloud"
+    },
+    {
+        imageUrl: typescript,
+        name: "GCP",
+        type: "DevOps/Cloud"
+    },
+    {
+        imageUrl: typescript,
+        name: "Docker",
+        type: "DevOps/Cloud"
+    },
+    {
+        imageUrl: typescript,
+        name: "Kafka",
+        type: "Big Data/Streaming"
+    },
+    {
+        imageUrl: typescript,
+        name: "Spark",
+        type: "Big Data/Streaming"
+    },
+    {
+        imageUrl: typescript,
+        name: "Hadoop",
+        type: "Big Data/Streaming"
     }
 ];
+
 
 export const experiences = [
     {

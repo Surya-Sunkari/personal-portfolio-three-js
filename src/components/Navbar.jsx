@@ -4,7 +4,6 @@ import resume from '/resume.pdf';
 const Navbar = () => {
 
   const openResume = () => {
-    // Replace 'your-resume-url.pdf' with the actual URL or file path of your resume
     window.open(resume, '_blank');
 };
 
@@ -24,7 +23,7 @@ const Navbar = () => {
           Projects
         </NavLink>
 
-        <button className="text-slate-800 hover:scale-105 hover:text-black transition" onClick={openResume}>Resume</button>
+        <button className="text-black hover:scale-105 transition" onClick={openResume}>Resume</button>
       </nav>
     </header>
   );

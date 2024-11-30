@@ -22,10 +22,10 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          <b>-</b> I'm a student studying Computer Science + Mathematics at The University of Texas at Austin.
+          <b>-</b> I'm a student studying <b>Computer Science</b>, <b>Mathematics</b>, and <b>Economics</b> at <b>The University of Texas at Austin</b>.
         </p>
         <p>
-          <b>-</b> My interests include full-stack development, machine learning, research, and quantitative finance
+          <b>-</b> My interests include <b>full-stack development</b>, <b>machine learning</b>, <b>research</b>, and <b>quantitative finance</b>.
         </p>
       </div>
 
@@ -33,7 +33,7 @@ const About = () => {
         <h3 className='subhead-text'>My Skills</h3>
 
         <div className='mt-16 flex flex-wrap gap-12'>
-          {skills.map((skill) => (
+          {skills.sort((a, b) => a.type.localeCompare(b.type)).map((skill) => (
             <div className='block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl' />
               <div className='btn-front rounded-xl flex justify-center items-center'>
