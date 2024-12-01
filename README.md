@@ -1,7 +1,6 @@
 three js portfolio website
 
 todo:
- - add company logos to experiences
  - update projects
  - add logos to skills
  - update contact .env files

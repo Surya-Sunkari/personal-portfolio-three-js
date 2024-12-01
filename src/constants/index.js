@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { scale, wayfair, locol, cacao, paycom } from "../assets/images";
 import {
     car,
     contact,
@@ -164,7 +164,7 @@ export const skills = [
         imageUrl: typescript,
         name: "Hadoop",
         type: "Big Data/Streaming"
-    }
+    },
 ];
 
 
@@ -172,58 +172,63 @@ export const experiences = [
     {
         "title": "Technical Advisor Intern - Gen AI",
         "company_name": "Scale AI",
-        "icon": starbucks,
+        "icon": scale,
         "iconBg": "#c7e5c3",
         "date": "November 2024 - Present",
         "points": [
             "Oversaw the training and fine-tuning of a code-reasoning model to solve complex, Olympiad-level competitive math problems.",
             "Led the development and optimization of the model to tackle advanced programming challenges with high accuracy and efficiency."
-        ]
+        ],
+        "scale": "70%"
     },
     {
         "title": "Software Engineering Intern",
         "company_name": "Wayfair",
-        "icon": starbucks,
+        "icon": wayfair,
         "iconBg": "#accbe1",
         "date": "May 2024 - August 2024",
         "points": [
             "Designed and implemented an automation microservice capable of consuming over 9,500 Kafka messages per minute from various topics, reducing data processing time by 15% and further decoupling from external APIs.",
             "Expanded backend functionality by developing 20+ new endpoints to interface with carton route creation and logical/physical conveyability, utilizing Java Spring Boot, Kotlin, and PostgreSQL.",
             "Implemented unit, integration, and end-to-end tests to increase overall code coverage from ~70% to over 90%."
-        ]
+        ],
+        "scale": "75%"
     },
     {
-        "title": "Software Engineering Intern, Tech Lead",
+        "title": "Software Engineering Intern",
         "company_name": "Cacao.tax",
-        "icon": starbucks,
+        "icon": cacao,
         "iconBg": "#fbc3bc",
         "date": "January 2024 - May 2024",
         "points": [
             "Automated data collection of tax-related information from passports, boarding passes, receipts, etc.",
             "Created a pipeline using Expo, React Native, CV, and MySQL to shorten the tax refund process from >25 minutes to ~3 minutes."
-        ]
+        ],
+        "scale": "75%"
     },
     {
-        "title": "Software Engineering Intern, Tech Lead",
+        "title": "Software Engineering Intern",
         "company_name": "Locol",
-        "icon": starbucks,
+        "icon": locol,
         "iconBg": "#b7e4c7",
         "date": "August 2023 - December 2023",
         "points": [
             "Built upon existing authentication functionality to create a fully functional onboarding service and file manager for both businesses and student freelancers using AWS Amplify, AWS Cognito, AWS S3, and Next.",
             "Coordinated a team of 4 other software development interns to ensure quality code and timely developments."
-        ]
+        ],
+        "scale": "65%"
     },
     {
         "title": "Software Engineering Intern",
         "company_name": "Paycom",
-        "icon": starbucks,
+        "icon": paycom,
         "iconBg": "#a2d2ff",
         "date": "May 2023 - August 2023",
         "points": [
             "Developed a full-stack application that combined Paycom’s report builder service with their proprietary encryption API to safely transmit Personally Identifiable Information to over 44,000 clients/employees.",
             "Designed a SQL Query Preview page using React to securely view sensitive data that is expected to roll out to more than 36,000 client companies, using PHP for the backend."
-        ]
+        ],
+        "scale": "75%"
     }
 ];
 

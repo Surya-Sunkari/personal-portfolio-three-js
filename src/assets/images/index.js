@@ -1,13 +1,15 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
+import scale from './scale.png'
+import cacao from './cacao.webp'
+import paycom from './paycom.png'
+import wayfair from './wayfair.png'
+import locol from './locol.jpg'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla
+    scale,
+    cacao,
+    paycom,
+    wayfair,
+    locol
 }
