@@ -11,8 +11,6 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
     pricewise,
@@ -21,7 +19,23 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    aws,
+    c,
+    clojure,
+    cpp,
+    django,
+    docker,
+    flask,
+    gcp,
+    hadoop,
+    java,
+    kafka,
+    kotlin,
+    php,
+    python,
+    spark,
+    spring,
 } from "../assets/icons";
 
 export const skills = [
@@ -86,82 +100,82 @@ export const skills = [
         type: "Frontend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: python,
         name: "Python",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: java,
         name: "Java",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: php,
         name: "PHP",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: c,
         name: "C",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: cpp,
         name: "C++",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: kotlin,
         name: "Kotlin",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: clojure,
         name: "Clojure",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: flask,
         name: "Flask",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: django,
         name: "Django",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: spring,
         name: "Java Spring",
         type: "Backend"
     },
     {
-        imageUrl: typescript,
+        imageUrl: aws,
         name: "AWS",
         type: "DevOps/Cloud"
     },
     {
-        imageUrl: typescript,
+        imageUrl: gcp,
         name: "GCP",
         type: "DevOps/Cloud"
     },
     {
-        imageUrl: typescript,
+        imageUrl: docker,
         name: "Docker",
         type: "DevOps/Cloud"
     },
     {
-        imageUrl: typescript,
+        imageUrl: kafka,
         name: "Kafka",
         type: "Big Data/Streaming"
     },
     {
-        imageUrl: typescript,
+        imageUrl: spark,
         name: "Spark",
         type: "Big Data/Streaming"
     },
     {
-        imageUrl: typescript,
+        imageUrl: hadoop,
         name: "Hadoop",
         type: "Big Data/Streaming"
     },
