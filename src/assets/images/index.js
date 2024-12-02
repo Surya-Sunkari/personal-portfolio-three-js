@@ -3,7 +3,7 @@ import scale from './scale.png'
 import cacao from './cacao.webp'
 import paycom from './paycom.png'
 import wayfair from './wayfair.png'
-import locol from './locol.jpg'
+import locol from './locol.png'
 
 export {
     hero,
