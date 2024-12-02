@@ -1,24 +1,16 @@
 import { scale, wayfair, locol, cacao, paycom } from "../assets/images";
 import {
-    car,
-    contact,
     css,
-    estate,
     express,
     git,
     github,
     html,
     javascript,
-    linkedin,
     mongodb,
     nextjs,
     nodejs,
-    pricewise,
     react,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
     typescript,
     aws,
     c,
@@ -36,7 +28,21 @@ import {
     python,
     spark,
     spring,
+
+    linkedin,
+    contact,
+
+    brain,
+    dobby,
+    messenger,
+    money,
+    music,
+    snake,
 } from "../assets/icons";
+
+import semantic_mapping from "/semantic_mapping.pdf";
+import dobby_pdf from "/dobby.pdf";
+
 
 export const skills = [
     {
@@ -188,7 +194,7 @@ export const experiences = [
         "company_name": "Scale AI",
         "icon": scale,
         "iconBg": "#c7e5c3",
-        "date": "November 2024 - Present",
+        "date": "Nov 2024 - Present",
         "points": [
             "Oversaw the training and fine-tuning of a code-reasoning model to solve complex, Olympiad-level competitive math problems.",
             "Led the development and optimization of the model to tackle advanced programming challenges with high accuracy and efficiency."
@@ -200,7 +206,7 @@ export const experiences = [
         "company_name": "Wayfair",
         "icon": wayfair,
         "iconBg": "#accbe1",
-        "date": "May 2024 - August 2024",
+        "date": "May 2024 - Aug 2024",
         "points": [
             "Designed and implemented an automation microservice capable of consuming over 9,500 Kafka messages per minute from various topics, reducing data processing time by 15% and further decoupling from external APIs.",
             "Expanded backend functionality by developing 20+ new endpoints to interface with carton route creation and logical/physical conveyability, utilizing Java Spring Boot, Kotlin, and PostgreSQL.",
@@ -213,7 +219,7 @@ export const experiences = [
         "company_name": "Cacao.tax",
         "icon": cacao,
         "iconBg": "#fbc3bc",
-        "date": "January 2024 - May 2024",
+        "date": "Jan 2024 - May 2024",
         "points": [
             "Automated data collection of tax-related information from passports, boarding passes, receipts, etc.",
             "Created a pipeline using Expo, React Native, CV, and MySQL to shorten the tax refund process from >25 minutes to ~3 minutes."
@@ -225,7 +231,7 @@ export const experiences = [
         "company_name": "Locol",
         "icon": locol,
         "iconBg": "#b7e4c7",
-        "date": "August 2023 - December 2023",
+        "date": "Aug 2023 - Dec 2023",
         "points": [
             "Built upon existing authentication functionality to create a fully functional onboarding service and file manager for both businesses and student freelancers using AWS Amplify, AWS Cognito, AWS S3, and Next.",
             "Coordinated a team of 4 other software development interns to ensure quality code and timely developments."
@@ -237,7 +243,7 @@ export const experiences = [
         "company_name": "Paycom",
         "icon": paycom,
         "iconBg": "#a2d2ff",
-        "date": "May 2023 - August 2023",
+        "date": "May 2023 - Aug 2023",
         "points": [
             "Developed a full-stack application that combined Paycom’s report builder service with their proprietary encryption API to safely transmit Personally Identifiable Information to over 44,000 clients/employees.",
             "Designed a SQL Query Preview page using React to securely view sensitive data that is expected to roll out to more than 36,000 client companies, using PHP for the backend."
@@ -267,45 +273,46 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: brain,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Regularized Logistic Regression Algorithm',
+        description: 'Developed a regularized, logistic regression algorithm using Apache Spark to classify text documents based on their content (accuracy: 0.9989, f-score: 0.9729), deployed and tested on a GKE cluster.',
+        link: 'https://github.com/adrianhajdin/pricewise', // fix
     },
     {
-        iconUrl: threads,
+        iconUrl: dobby,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Dobby, a Conversational Service Robot Driven by GPT-4',
+        description: 'Developed advanced robotics platforms (published at IEEE RO-MAN 2024) integrating GPT-4-powered conversational AI for adaptive task execution, natural language understanding, and user interaction, alongside a flexible semantic mapping system utilizing state-of-the-art vision-language models like SAM, CLIP, and BLIP to enable zero-shot object classification and dynamic environment mapping.',
+        is_dobby: true,
+        papers: [{title: "Dobby Paper", file: dobby_pdf}, {title: "Semantic Mapping Paper", file: semantic_mapping}] // add video?
     },
     {
-        iconUrl: car,
+        iconUrl: money,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Swoosh, a Decentralized Payment System',
+        description: 'Designed and built full-stack, decentralized payment and bill-splitting app with in-app wallets, gasless transaction, and secure, peer-to-peer payments, reducing payment finality from days to minutes.',
+        link: 'https://github.com/adrianhajdin/project_next13_car_showcase', // fix
     },
     {
-        iconUrl: snapgram,
+        iconUrl: snake,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'AI-Powered Snake Game with Q-Learning',
+        description: 'Developed an AI-driven Snake game using Q-learning, enabling efficient gameplay through reinforcement learning and state preservation in a Q-table.',
+        link: 'https://github.com/Surya-Sunkari/Snake-Q-Learning',
     },
     {
-        iconUrl: estate,
+        iconUrl: messenger,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Messaging Application',
+        description: 'Built a complete clone of Messenger, allowing users to send text messages and images in a familiar user interface.',
+        link: 'https://github.com/adrianhajdin/projects_realestate', // fix
     },
     {
-        iconUrl: summiz,
+        iconUrl: music,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Music Player Application',
+        description: 'Built a comprehensive music streaming application emulating Spotify\'s features, allowing for file/image upload, user authentication, music playback, and more.',
+        link: 'https://github.com/adrianhajdin/project_ai_summarizer', // fix
     }
 ];

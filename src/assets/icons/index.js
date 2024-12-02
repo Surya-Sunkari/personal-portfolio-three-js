@@ -28,15 +28,14 @@ import spark from './spark.png'
 import spring from './spring.png'
 
 import linkedin from './linkedin.svg'
-import twitter from './twitter.svg'
 import contact from './contact.svg'
 
-import car from './car.svg'
-import estate from './estate.svg'
-import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
-import threads from './threads.svg'
+import brain from './brain.png'
+import dobby from './dobby.png'
+import messenger from './messenger.png'
+import money from './money.webp'
+import music from './music.png'
+import snake from './snake.png'
 
 import arrow from './arrow.svg'
 import soundon from './soundon.png'
@@ -73,15 +72,14 @@ export {
     spring,
 
     linkedin,
-    twitter,
     contact,
 
-    car,
-    estate,
-    pricewise,
-    snapgram,
-    summiz,
-    threads,
+    brain,
+    dobby,
+    messenger,
+    money,
+    music,
+    snake,
 
     arrow,
     soundon,

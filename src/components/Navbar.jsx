@@ -5,7 +5,7 @@ const Navbar = () => {
 
   const openResume = () => {
     window.open(resume, '_blank');
-};
+  };
 
   return (
     <header className='header'>
