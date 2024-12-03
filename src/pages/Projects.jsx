@@ -14,7 +14,7 @@ const Projects = () => {
         </span>
       </h1>
 
-      <p className='text-slate-500 mt-2 leading-relaxed text-lg'>
+      <p className='text-slate-500 mt-2 leading-relaxed text-xl'>
       I've worked on a variety of projects, spanning web development, machine learning, blockchain, and more. 
       Here are a few of my favorites. Feel free to explore the repositories, and let me know any improvements you'd like to see!
       </p>
@@ -37,49 +37,47 @@ const Projects = () => {
               <h4 className='text-2xl font-poppins font-semibold'>
                 {project.name}
               </h4>
-              <p className='mt-2 text-slate-500'>{project.description}</p>
-              {
-                project.is_dobby && (
-                  <div className='mt-5 flex justify-between font-poppins'>
-                    {project.papers.map((info) => (
-                      <div className="flex items-center">
-                        <Link
-                          to={info.file}
-                          target='_blank'
-                          rel='noopener noreferrer'
-                          className='font-semibold text-blue-600 mr-2'
-                        >
-                          {info.title}
-                        </Link>
-                        <img
-                          src={arrow}
-                          alt='arrow'
-                          className='w-4 h-4 object-contain'
-                        />
-                      </div>
-                    ))}
-                  </div>
-                )
-              }
-              {
-                !project.is_dobby && (
-                  <div className='mt-5 flex items-center gap-2 font-poppins'>
-                    <Link
-                      to={project.link}
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      className='font-semibold text-blue-600'
-                    >
-                      Repository
-                    </Link>
-                    <img
-                      src={arrow}
-                      alt='arrow'
-                      className='w-4 h-4 object-contain'
-                    />
-                  </div>
-                )
-              }
+              <p className='mt-2 text-slate-500 text-lg'>{project.description}</p>
+              <div className='mt-5 font-poppins'>
+                <div className='flex justify-between'>
+                  {project.links.slice(0, 2).map((info) => (
+                    <div className="flex items-center hover:scale-105 transition">
+                      <Link
+                        to={info.link}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='font-semibold text-blue-600 mr-2'
+                      >
+                        {info.title}
+                      </Link>
+                      <img
+                        src={arrow}
+                        alt='arrow'
+                        className='w-4 h-4 object-contain'
+                      />
+                    </div>
+                  ))}
+                </div>
+                <div className='flex justify-between mt-3'>
+                  {project.links.slice(2).map((info) => (
+                    <div className="flex items-center hover:scale-105 transition">
+                      <Link
+                        to={info.link}
+                        target='_blank'
+                        rel='noopener noreferrer'
+                        className='font-semibold text-blue-600 mr-2'
+                      >
+                        {info.title}
+                      </Link>
+                      <img
+                        src={arrow}
+                        alt='arrow'
+                        className='w-4 h-4 object-contain'
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </div>
         ))}

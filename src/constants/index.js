@@ -277,17 +277,20 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Regularized Logistic Regression Algorithm',
         description: 'Developed a regularized, logistic regression algorithm using Apache Spark to classify text documents based on their content (accuracy: 0.9989, f-score: 0.9729), deployed and tested on a GKE cluster.',
-        link: 'https://github.com/adrianhajdin/pricewise', // fix
+        links: [
+            {title: "Repository", link: 'https://github.com/Surya-Sunkari/logistic-regression-cloud'}
+        ]
     },
     {
         iconUrl: dobby,
         theme: 'btn-back-green',
         name: 'Dobby, a Conversational Service Robot Driven by GPT-4',
         description: 'Developed advanced robotics platforms (published at IEEE RO-MAN 2024) integrating GPT-4-powered conversational AI for adaptive task execution, natural language understanding, and user interaction, alongside a flexible semantic mapping system utilizing state-of-the-art vision-language models like SAM, CLIP, and BLIP to enable zero-shot object classification and dynamic environment mapping.',
-        is_dobby: true,
-        papers: [
-            {title: "Dobby Paper", file: dobby_pdf}, 
-            {title: "Semantic Mapping Paper", file: semantic_mapping}
+        links: [
+            {title: "Dobby Paper", link: dobby_pdf}, 
+            {title: "Mapping Paper", link: semantic_mapping},
+            {title: "Dobby Video", link: "https://www.youtube.com/watch?v=nxtfpiUrPUc&ab_channel=TexasRobotics"},
+            {title: "Mapping Video", link: "https://drive.google.com/file/d/15C5Rdcnh-VcVJTlXmScBHQJ36yvPtoyx/view?resourcekey"}
         ] // add video?
     },
     {
@@ -295,27 +298,38 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Swoosh, a Decentralized Payment System',
         description: 'Designed and built full-stack, decentralized payment and bill-splitting app with in-app wallets, gasless transaction, and secure, peer-to-peer payments, reducing payment finality from days to minutes.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase', // fix
+        links: [
+            {title: "Demo", link: "https://devfolio.co/projects/swoosh-d164"},
+            {title: "Repository", link: "https://github.com/sreeduggirala/swoosh"},
+        ]
     },
     {
         iconUrl: snake,
         theme: 'btn-back-pink',
         name: 'AI-Powered Snake Game with Q-Learning',
         description: 'Developed an AI-driven Snake game using Q-learning, enabling efficient gameplay through reinforcement learning and state preservation in a Q-table.',
-        link: 'https://github.com/Surya-Sunkari/Snake-Q-Learning',
+        links: [
+            {title: "Repository", link: 'https://github.com/Surya-Sunkari/Snake-Q-Learning'}
+        ]
     },
     {
         iconUrl: messenger,
         theme: 'btn-back-black',
         name: 'Messaging Application',
         description: 'Built a complete clone of Messenger, allowing users to send text messages and images in a familiar user interface.',
-        link: 'https://github.com/adrianhajdin/projects_realestate', // fix
+        links: [
+            {title: "Live Link", link: 'https://messenger-clone-seven-tau.vercel.app/'},
+            {title: "Repository", link: 'https://github.com/Surya-Sunkari/messenger-clone'}
+        ]
     },
     {
         iconUrl: music,
         theme: 'btn-back-yellow',
         name: 'Music Player Application',
         description: 'Built a comprehensive music streaming application emulating Spotify\'s features, allowing for file/image upload, user authentication, music playback, and more.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer', // fix
+        links: [
+            {title: "Live Link", link: 'https://spotify-clone-surya-sunkari.vercel.app/'},
+            {title: "Repository", link: 'https://github.com/Surya-Sunkari/spotify-clone'}
+        ]
     }
 ];

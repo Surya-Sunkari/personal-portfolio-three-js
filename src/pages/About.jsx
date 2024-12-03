@@ -20,7 +20,7 @@ const About = () => {
         👋
       </h1>
 
-      <div className='mt-5 flex flex-col gap-3 text-slate-500 text-lg'>
+      <div className='mt-5 flex flex-col gap-3 text-slate-500 text-xl'>
         <p>
           <b>-</b> I'm a student studying <b>Computer Science</b>, <b>Mathematics</b>, and <b>Economics</b> at <b>The University of Texas at Austin</b>.
         </p>
@@ -50,7 +50,7 @@ const About = () => {
 
       <div className='py-16'>
         <h3 className='subhead-text'>Work Experience</h3>
-        <div className='mt-5 flex flex-col gap-3 text-slate-500 text-lg'>
+        <div className='mt-5 flex flex-col gap-3 text-slate-500 text-xl'>
           <p>
             I've worked with all sorts of companies, from Fortune 500 companies to local startups. Here's a few of them:
           </p>
@@ -68,7 +68,7 @@ const About = () => {
                     <img
                       src={experience.icon}
                       alt={experience.company_name}
-                      className={`w-[${experience.scale}] h-[${experience.scale}] object-contain`}
+                      className={`w-[${experience.scale}] h-[${experience.scale}] object-contain p-1`}
                     />
                   </div>
                 }
@@ -84,7 +84,7 @@ const About = () => {
                     {experience.title}
                   </h3>
                   <p
-                    className='text-black-500 font-medium text-base'
+                    className='text-black-500 font-medium text-xl'
                     style={{ margin: 0 }}
                   >
                     {experience.company_name}
@@ -95,7 +95,7 @@ const About = () => {
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
+                      className='text-black-500/50 font-normal pl-1'
                     >
                       {point}
                     </li>
