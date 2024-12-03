@@ -15,7 +15,7 @@ const Projects = () => {
       </h1>
 
       <p className='text-slate-500 mt-2 leading-relaxed text-lg'>
-      I've worked on a variety of projects, including web development, machine learning, blockchain, and more. 
+      I've worked on a variety of projects, spanning web development, machine learning, blockchain, and more. 
       Here are a few of my favorites. Feel free to explore the repositories, and let me know any improvements you'd like to see!
       </p>
 
@@ -43,15 +43,14 @@ const Projects = () => {
                   <div className='mt-5 flex justify-between font-poppins'>
                     {project.papers.map((info) => (
                       <div className="flex items-center">
-                        <a
-                          key={info.title}
-                          href={info.file}
+                        <Link
+                          to={info.file}
                           target='_blank'
                           rel='noopener noreferrer'
                           className='font-semibold text-blue-600 mr-2'
                         >
                           {info.title}
-                        </a>
+                        </Link>
                         <img
                           src={arrow}
                           alt='arrow'
@@ -60,7 +59,6 @@ const Projects = () => {
                       </div>
                     ))}
                   </div>
-                  
                 )
               }
               {

@@ -285,7 +285,10 @@ export const projects = [
         name: 'Dobby, a Conversational Service Robot Driven by GPT-4',
         description: 'Developed advanced robotics platforms (published at IEEE RO-MAN 2024) integrating GPT-4-powered conversational AI for adaptive task execution, natural language understanding, and user interaction, alongside a flexible semantic mapping system utilizing state-of-the-art vision-language models like SAM, CLIP, and BLIP to enable zero-shot object classification and dynamic environment mapping.',
         is_dobby: true,
-        papers: [{title: "Dobby Paper", file: dobby_pdf}, {title: "Semantic Mapping Paper", file: semantic_mapping}] // add video?
+        papers: [
+            {title: "Dobby Paper", file: dobby_pdf}, 
+            {title: "Semantic Mapping Paper", file: semantic_mapping}
+        ] // add video?
     },
     {
         iconUrl: money,
