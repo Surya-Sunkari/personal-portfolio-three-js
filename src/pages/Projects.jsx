@@ -42,14 +42,14 @@ const Projects = () => {
                 <div className='flex justify-between'>
                   {project.links.slice(0, 2).map((info) => (
                     <div className="flex items-center hover:scale-105 transition">
-                      <Link
-                        to={info.link}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        className='font-semibold text-blue-600 mr-2'
+                      <a
+                        href={info.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-semibold text-blue-600 mr-2"
                       >
                         {info.title}
-                      </Link>
+                      </a>
                       <img
                         src={arrow}
                         alt='arrow'

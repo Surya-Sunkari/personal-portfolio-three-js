@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import resume from '/resume.pdf';
 
 const Navbar = () => {
+
   return (
     <header className='header'>
       <NavLink to='/'>
@@ -19,14 +20,14 @@ const Navbar = () => {
           Projects
         </NavLink>
 
-        <Link
-          to={resume}
-          target='_blank'
-          rel='noopener noreferrer'
-          className='text-black hover:scale-105 transition'
+        <a
+          href={resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-black hover:scale-105 transition"
         >
           Resume
-        </Link>
+        </a>
       </nav>
     </header>
   );
