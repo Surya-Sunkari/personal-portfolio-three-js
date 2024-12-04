@@ -26,6 +26,7 @@ import php from './php.png'
 import python from './python.png'
 import spark from './spark.png'
 import spring from './spring.png'
+import sql from './sql.png'
 
 import linkedin from './linkedin.svg'
 import contact from './contact.svg'
@@ -70,6 +71,7 @@ export {
     python,
     spark,
     spring,
+    sql,
 
     linkedin,
     contact,

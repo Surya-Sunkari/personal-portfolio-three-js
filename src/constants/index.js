@@ -28,6 +28,7 @@ import {
     python,
     spark,
     spring,
+    sql,
 
     linkedin,
     contact,
@@ -61,9 +62,9 @@ export const skills = [
         type: "Version Control"
     },
     {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control"
+        imageUrl: sql,
+        name: "SQL",
+        type: "Backend"
     },
     {
         imageUrl: html,
