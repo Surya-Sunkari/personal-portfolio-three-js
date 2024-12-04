@@ -1,12 +1,8 @@
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import resume from '/resume.pdf';
 
 const Navbar = () => {
-
-  const openResume = () => {
-    window.open(resume, '_blank');
-  };
-
   return (
     <header className='header'>
       <NavLink to='/'>
@@ -23,7 +19,14 @@ const Navbar = () => {
           Projects
         </NavLink>
 
-        <button className="text-black hover:scale-105 transition" onClick={openResume}>Resume</button>
+        <Link
+          to={resume}
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-black hover:scale-105 transition'
+        >
+          Resume
+        </Link>
       </nav>
     </header>
   );

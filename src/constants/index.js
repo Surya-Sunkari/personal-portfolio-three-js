@@ -289,9 +289,9 @@ export const projects = [
         links: [
             {title: "Dobby Paper", link: dobby_pdf}, 
             {title: "Mapping Paper", link: semantic_mapping},
-            {title: "Dobby Video", link: "https://www.youtube.com/watch?v=nxtfpiUrPUc&ab_channel=TexasRobotics"},
+            {title: "Dobby Presentation", link: "https://www.youtube.com/watch?v=nxtfpiUrPUc&ab_channel=TexasRobotics"},
             {title: "Mapping Video", link: "https://drive.google.com/file/d/15C5Rdcnh-VcVJTlXmScBHQJ36yvPtoyx/view?resourcekey"}
-        ] // add video?
+        ]
     },
     {
         iconUrl: money,
