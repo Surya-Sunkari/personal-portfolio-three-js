@@ -1,4 +1,4 @@
-import { scale, wayfair, locol, cacao, paycom } from "../assets/images";
+import { scale, wayfair, locol, cacao, paycom, google } from "../assets/images";
 import {
     css,
     express,
@@ -191,6 +191,17 @@ export const skills = [
 
 export const experiences = [
     {
+        "title": "Software Engineering Intern",
+        "company_name": "Google",
+        "icon": google,
+        "iconBg": "#f0e6f6",
+        "date": "May 2025 - Present",
+        "points": [
+            "SWE Intern on Google's Payments team"
+        ],
+        "scale": "70%"
+    },
+    {
         "title": "Technical Advisor Intern - Gen AI",
         "company_name": "Scale AI",
         "icon": scale,
@@ -315,12 +326,12 @@ export const projects = [
     },
     {
         iconUrl: messenger,
-        theme: 'btn-back-black',
-        name: 'Messaging Application',
-        description: 'Built a complete clone of Messenger, allowing users to send text messages and images in a familiar user interface.',
+        theme: 'btn-back-red',
+        name: 'HeHeHub',
+        description: 'Built HeHeHub, a blockchain-powered meme platform that rewards creators with HeHe Tokens when their content makes users laugh, verified through real-time facial recognition.',
         links: [
-            {title: "Live Link", link: 'https://messenger-clone-seven-tau.vercel.app/'},
-            {title: "Repository", link: 'https://github.com/Surya-Sunkari/messenger-clone'}
+            {title: "Demo", link: 'https://devfolio.co/projects/hehehub-d0c0'},
+            {title: "Repository", link: 'https://github.com/iankmm/hehehub'}
         ]
     },
     {

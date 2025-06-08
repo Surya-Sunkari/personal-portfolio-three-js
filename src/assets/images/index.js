@@ -4,6 +4,7 @@ import cacao from './cacao.webp'
 import paycom from './paycom.png'
 import wayfair from './wayfair.png'
 import locol from './locol.png'
+import google from './google.png'
 
 export {
     hero,
@@ -11,5 +12,6 @@ export {
     cacao,
     paycom,
     wayfair,
-    locol
+    locol,
+    google
 }
