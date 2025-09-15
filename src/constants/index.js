@@ -197,7 +197,8 @@ export const experiences = [
         "iconBg": "#f0e6f6",
         "date": "May 2025 - Present",
         "points": [
-            "SWE Intern on Google's Payments team"
+            "Developed a scalable, automated testing system to detect outages and anomalies across Google's global payment network partners, reducing the average time-to-detection for critical outages from 4 weeks to 2 hours",
+            "Utilized Java, gRPC, and SQL to simulate traffic deployed on Google’s internal version of Kubernetes as a cronjob, enabling proactive analysis and improving the actionability of SLO-based alerting in sandbox environments" 
         ],
         "scale": "70%"
     },
@@ -208,8 +209,8 @@ export const experiences = [
         "iconBg": "#c7e5c3",
         "date": "Nov 2024 - Present",
         "points": [
-            "Oversaw the training and fine-tuning of a code-reasoning model to solve complex, Olympiad-level competitive math problems.",
-            "Led the development and optimization of the model to tackle advanced programming challenges with high accuracy and efficiency."
+            "Improving SOTA AI model accuracy/efficiency by addressing weaknesses in Olympiad-level math problems.",
+            "Advancing SOTA code generation models by refining their performance on ICPC-level programming challenges."
         ],
         "scale": "70%"
     },
@@ -285,12 +286,13 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: brain,
+        iconUrl: messenger,
         theme: 'btn-back-red',
-        name: 'Regularized Logistic Regression Algorithm',
-        description: 'Developed a regularized, logistic regression algorithm using Apache Spark to classify text documents based on their content (accuracy: 0.9989, f-score: 0.9729), deployed and tested on a GKE cluster.',
+        name: 'HeHeHub',
+        description: 'Built HeHeHub, a blockchain-powered meme platform that rewards creators with HeHe Tokens when their content makes users laugh, verified through real-time facial recognition.',
         links: [
-            {title: "Repository", link: 'https://github.com/Surya-Sunkari/logistic-regression-cloud'}
+            {title: "Demo", link: 'https://devfolio.co/projects/hehehub-d0c0'},
+            {title: "Repository", link: 'https://github.com/iankmm/hehehub'}
         ]
     },
     {
@@ -316,22 +318,21 @@ export const projects = [
         ]
     },
     {
+        iconUrl: brain,
+        theme: 'btn-back-red',
+        name: 'Regularized Logistic Regression Algorithm',
+        description: 'Developed a regularized, logistic regression algorithm using Apache Spark to classify text documents based on their content (accuracy: 0.9989, f-score: 0.9729), deployed and tested on a GKE cluster.',
+        links: [
+            {title: "Repository", link: 'https://github.com/Surya-Sunkari/logistic-regression-cloud'}
+        ]
+    },
+    {
         iconUrl: snake,
         theme: 'btn-back-pink',
         name: 'AI-Powered Snake Game with Q-Learning',
         description: 'Developed an AI-driven Snake game using Q-learning, enabling efficient gameplay through reinforcement learning and state preservation in a Q-table.',
         links: [
             {title: "Repository", link: 'https://github.com/Surya-Sunkari/Snake-Q-Learning'}
-        ]
-    },
-    {
-        iconUrl: messenger,
-        theme: 'btn-back-red',
-        name: 'HeHeHub',
-        description: 'Built HeHeHub, a blockchain-powered meme platform that rewards creators with HeHe Tokens when their content makes users laugh, verified through real-time facial recognition.',
-        links: [
-            {title: "Demo", link: 'https://devfolio.co/projects/hehehub-d0c0'},
-            {title: "Repository", link: 'https://github.com/iankmm/hehehub'}
         ]
     },
     {
