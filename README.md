@@ -3,8 +3,10 @@ three js portfolio website
 ### testing
 - npm run dev
 
-
 ### updating portfolio
-- push to github
-- run npm run predeploy
-- run npm run deploy
+- vercel is connected to the repo, just push to main branch
+
+### other locations to update
+- [utcs](https://apps.cs.utexas.edu/resume)
+- handshake
+- linkedin
