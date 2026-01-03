@@ -5,6 +5,7 @@ import paycom from './paycom.png'
 import wayfair from './wayfair.png'
 import locol from './locol.png'
 import google from './google.png'
+import janestreet from './janestreet.png'
 
 export {
     hero,
@@ -13,5 +14,6 @@ export {
     paycom,
     wayfair,
     locol,
-    google
+    google,
+    janestreet
 }

@@ -1,4 +1,4 @@
-import { scale, wayfair, locol, cacao, paycom, google } from "../assets/images";
+import { scale, wayfair, locol, cacao, paycom, google, janestreet } from "../assets/images";
 import {
     css,
     express,
@@ -192,10 +192,21 @@ export const skills = [
 export const experiences = [
     {
         "title": "Software Engineering Intern",
+        "company_name": "Jane Street",
+        "icon": janestreet,
+        "iconBg": "#a2d2ff",
+        "date": "May 2026 - August 2026",
+        "points": [
+            "Incoming Software Engineering Intern, Summer 2026"
+        ],
+        "scale": "70%"
+    },
+    {
+        "title": "Software Engineering Intern",
         "company_name": "Google",
         "icon": google,
         "iconBg": "#f0e6f6",
-        "date": "May 2025 - Present",
+        "date": "May 2025 - Aug 2025",
         "points": [
             "Developed a scalable, automated testing system to detect outages and anomalies across Google's global payment network partners, reducing the average time-to-detection for critical outages from 4 weeks to 2 hours",
             "Utilized Java, gRPC, and SQL to simulate traffic deployed on Google’s internal version of Kubernetes as a cronjob, enabling proactive analysis and improving the actionability of SLO-based alerting in sandbox environments" 
@@ -207,7 +218,7 @@ export const experiences = [
         "company_name": "Scale AI",
         "icon": scale,
         "iconBg": "#c7e5c3",
-        "date": "Nov 2024 - Present",
+        "date": "Nov 2024 - Aug 2025",
         "points": [
             "Improving SOTA AI model accuracy/efficiency by addressing weaknesses in Olympiad-level math problems.",
             "Advancing SOTA code generation models by refining their performance on ICPC-level programming challenges."
