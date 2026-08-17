@@ -4,6 +4,7 @@ three js portfolio website
 - npm run dev
 
 ### updating portfolio
+- update resume, projects, skills
 - vercel is connected to the repo, just push to main branch
 
 ### other locations to update

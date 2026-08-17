@@ -195,9 +195,9 @@ export const experiences = [
         "company_name": "Jane Street",
         "icon": janestreet,
         "iconBg": "#a2d2ff",
-        "date": "May 2026 - August 2026",
+        "date": "May 2026 - Aug 2026",
         "points": [
-            "Incoming Software Engineering Intern, Summer 2026"
+            "Software Engineering Intern, Summer 2026"
         ],
         "scale": "70%"
     },
@@ -214,14 +214,14 @@ export const experiences = [
         "scale": "70%"
     },
     {
-        "title": "Technical Advisor Intern - Gen AI",
+        "title": "Technical Analyst Intern - Gen AI",
         "company_name": "Scale AI",
         "icon": scale,
         "iconBg": "#c7e5c3",
         "date": "Nov 2024 - Aug 2025",
         "points": [
-            "Improving SOTA AI model accuracy/efficiency by addressing weaknesses in Olympiad-level math problems.",
-            "Advancing SOTA code generation models by refining their performance on ICPC-level programming challenges."
+            "Improved SOTA AI model accuracy/efficiency by addressing weaknesses in Olympiad-level math problems.",
+            "Advanced SOTA code generation models by refining their performance on ICPC-level programming challenges."
         ],
         "scale": "70%"
     },
@@ -300,7 +300,7 @@ export const projects = [
         iconUrl: messenger,
         theme: 'btn-back-red',
         name: 'HeHeHub',
-        description: 'Built HeHeHub, a blockchain-powered meme platform that rewards creators with HeHe Tokens when their content makes users laugh, verified through real-time facial recognition.',
+        description: 'Built a SocialFi meme platform that converts real-time, facial-recognition laughter into an on-chain HEHE Score, using Foundry smart contracts, Thirdweb account-abstracted wallets, Face API CV models, and Supabase. Awarded $7k in prizes at ETHDenver 2025, beating out 200+ teams with a proof-of-laughter engagement model that replaces vanity metrics.',
         links: [
             {title: "Demo", link: 'https://devfolio.co/projects/hehehub-d0c0'},
             {title: "Repository", link: 'https://github.com/iankmm/hehehub'}
