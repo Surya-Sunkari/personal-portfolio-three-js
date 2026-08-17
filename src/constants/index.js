@@ -197,7 +197,8 @@ export const experiences = [
         "iconBg": "#a2d2ff",
         "date": "May 2026 - Aug 2026",
         "points": [
-            "Software Engineering Intern, Summer 2026"
+            "Built tooling in OCaml to trace how a new class of trading activity is normalized at each stage of the firm's processing pipeline, giving users step-by-step visibility into transformations that were previously unclear.",
+            "Designed and implemented correction handling for this activity type, enabling amendments and cancellations of previously booked activity while preserving consistency with downstream consumers."
         ],
         "scale": "70%"
     },
@@ -208,8 +209,8 @@ export const experiences = [
         "iconBg": "#f0e6f6",
         "date": "May 2025 - Aug 2025",
         "points": [
-            "Developed a scalable, automated testing system to detect outages and anomalies across Google's global payment network partners, reducing the average time-to-detection for critical outages from 4 weeks to 2 hours",
-            "Utilized Java, gRPC, and SQL to simulate traffic deployed on Google’s internal version of Kubernetes as a cronjob, enabling proactive analysis and improving the actionability of SLO-based alerting in sandbox environments" 
+            "Developed a scalable, automated testing system to detect outages and anomalies across Google's global payment network partners, reducing the average time-to-detection for critical outages from 4 weeks to 2 hours.",
+            "Utilized Java, gRPC, and SQL to simulate traffic deployed on Google's internal version of Kubernetes as a cronjob, enabling proactive analysis and improving the actionability of SLO-based alerting in sandbox environments."
         ],
         "scale": "70%"
     },
